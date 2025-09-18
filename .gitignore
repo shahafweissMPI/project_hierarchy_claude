@@ -6,9 +6,16 @@ __pycache__/
 .env
 preprocessing/preprocess_all .py
 *.png
+*.svg
+*.jpg
+*.jpeg
 *.h5
 *.pkl
+*.zip
 *.bin
 *.mat
+*.jrc
 *.npy
+*.avi
+*.mp4
 local_outputs*/
