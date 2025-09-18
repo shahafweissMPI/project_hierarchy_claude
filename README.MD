@@ -10,7 +10,7 @@ conda env create -f environment.yml
 
 - mamba install bzip2=1.0.8 ca-certificates=2024.12.14 libexpat=2.6.4 libffi=3.4.2 liblzma=5.6.3 libsqlite=3.47.2 libzlib=1.3.1 openssl=3.4.0 python=3.11.11 ucrt=10.0.22621.0 vc=14.3 vc14_runtime=14.42.34433 vs2015_runtime=14.42.34433 wheel=0.45.1 numpy=2.2.6
 
-- pip install aiohappyeyeballs==2.4.4 aiohttp==3.11.11 aiosignal==1.3.2 alabaster==1.0.0 altair==5.5.0 annotated-types==0.7.0 anyio==4.8.0 arrow==1.3.0 asciitree==0.3.3 asttokens==3.0.0 attrs==24.3.0 av==14.1.0 babel==2.17.0 backports-tarfile==1.2.0 bidsschematools==0.7.2 blosc2==3.0.0 boto3==1.36.15 botocore==1.36.15 bottleneck==1.4.2 cartopy==0.24.1 cbor2==5.6.5 certifi==2024.12.14 cffi==1.17.1 cftime==1.6.4.post1 charset-normalizer==3.4.1 ci-info==0.3.0 click==8.1.8 click-didyoumean==0.3.1 cloudpickle==3.1.0 colorama==0.4.6 comm==0.2.2 contourpy==1.3.1 cryptography==44.0.0 cuda-python==12.6.2.post1 cupy-cuda11x==13.4.0 cycler==0.12.1 dandi==0.66.5 dandischema==0.11.0 dask==2024.12.1 debugpy==1.8.12 decorator==5.1.1 decord==0.6.0 deprecated==1.2.18 dill==0.3.9 distinctipy==1.3.4 distributed==2024.12.1 dnspython==2.7.0 docstring-parser==0.16 docutils==0.21.2 elephant==1.1.1 email-validator==2.2.0 et-xmlfile==2.0.0 etelemetry==0.3.1 executing==2.1.0 fasteners==0.19 fastrlock==0.8.3 figurl==0.2.22 filelock==3.17.0 flox==0.10.0 fonttools==4.55.3 fqdn==1.5.1 frozenlist==1.5.0 fscacher==0.4.4 fsspec==2024.12.0 futures==3.0.5 h11==0.14.0 h5py==3.12.1 hdf5plugin==5.0.0 hdf5storage==0.1.19 hdmf==3.14.5 hdmf-docutils==0.4.7 hdmf-zarr==0.11.0 httpcore==1.0.7 httpx==0.28.1 huggingface-hub==0.29.2 humanize==4.11.0 idna==3.10 imageio==2.37.0 imageio-ffmpeg==0.6.0 imagesize==1.4.1 importlib-metadata==8.5.0 interleave==0.3.0 ipykernel==6.29.5 ipympl==0.9.6 ipython==8.32.0 ipywidgets==8.1.5 isodate==0.7.2 isoduration==20.11.0 jaraco-classes==3.4.0 jaraco-context==6.0.1 jaraco-functools==4.1.0 jax==0.5.0 jaxlib==0.5.0 jaxopt==0.8.3 jedi==0.19.2 jinja2==3.1.5 jmespath==1.0.1 joblib==1.4.2 jsonpointer==3.0.0 jsonschema==4.23.0 jsonschema-specifications==2024.10.1 jupyter-client==8.6.3 jupyter-core==5.7.2 jupyterlab-widgets==3.0.13 kachery-cloud==0.4.10 kaleido==0.2.1 keyring==25.6.0 keyrings-alt==5.0.2 kiwisolver==1.4.8 lazy-ops==0.2.0 llvmlite==0.43.0 locket==1.0.0 lxml==5.3.0 markdown-it-py==3.0.0 markupsafe==3.0.2 matplotlib==3.10.0 matplotlib-inline==0.1.7 mdurl==0.1.2 mearec==1.9.1 meautility==1.5.2 ml-dtypes==0.5.1 more-itertools==10.6.0 movement==0.0.23 moviepy==2.1.2 msgpack==1.1.0 mtscomp==1.0.2 multidict==6.1.0 narwhals==1.21.1 natsort==8.4.0 nc-time-axis==1.4.1 ndindex==1.9.2 ndx-dandi-icephys==0.4.0 ndx-events opencv-python scikit-learn movement==0.6  scipy==1.15.2
+-uv pip install aiohappyeyeballs==2.4.4 aiohttp==3.11.11 aiosignal==1.3.2 alabaster==1.0.0 altair==5.5.0 annotated-types==0.7.0 anyio==4.8.0 arrow==1.3.0 asciitree==0.3.3 asttokens==3.0.0 attrs==24.3.0 av==14.1.0 babel==2.17.0 backports-tarfile==1.2.0 bidsschematools==0.7.2 blosc2==3.0.0 boto3==1.36.15 botocore==1.36.15 bottleneck==1.4.2 cartopy==0.24.1 cbor2==5.6.5 certifi==2024.12.14 cffi==1.17.1 cftime==1.6.4.post1 charset-normalizer==3.4.1 ci-info==0.3.0 click==8.1.8 click-didyoumean==0.3.1 cloudpickle==3.1.0 colorama==0.4.6 comm==0.2.2 contourpy==1.3.1 cryptography==44.0.0 cuda-python==12.6.2.post1 cupy-cuda11x==13.4.0 cycler==0.12.1 dandi==0.66.5 dandischema==0.11.0 dask==2024.12.1 debugpy==1.8.12 decorator==5.1.1 decord==0.6.0 deprecated==1.2.18 dill==0.3.9 distinctipy==1.3.4 distributed==2024.12.1 dnspython==2.7.0 docstring-parser==0.16 docutils==0.21.2 elephant==1.1.1 email-validator==2.2.0 et-xmlfile==2.0.0 etelemetry==0.3.1 executing==2.1.0 fasteners==0.19 fastrlock==0.8.3 figurl==0.2.22 filelock==3.17.0 flox==0.10.0 fonttools==4.55.3 fqdn==1.5.1 frozenlist==1.5.0 fscacher==0.4.4 fsspec==2024.12.0 futures==3.0.5 h11==0.14.0 h5py==3.12.1 hdf5plugin==5.0.0 hdf5storage==0.1.19 hdmf==3.14.5 hdmf-docutils==0.4.7 hdmf-zarr==0.11.0 httpcore==1.0.7 httpx==0.28.1 huggingface-hub==0.29.2 humanize==4.11.0 idna==3.10 imageio==2.37.0 imageio-ffmpeg==0.6.0 imagesize==1.4.1 importlib-metadata==8.5.0 interleave==0.3.0 ipykernel==6.29.5 ipympl==0.9.6 ipython==8.32.0 ipywidgets==8.1.5 isodate==0.7.2 isoduration==20.11.0 jaraco-classes==3.4.0 jaraco-context==6.0.1 jaraco-functools==4.1.0 jax==0.5.0 jaxlib==0.5.0 jaxopt==0.8.3 jedi==0.19.2 jinja2==3.1.5 jmespath==1.0.1 joblib==1.4.2 jsonpointer==3.0.0 jsonschema==4.23.0 jsonschema-specifications==2024.10.1 jupyter-client==8.6.3 jupyter-core==5.7.2 jupyterlab-widgets==3.0.13 kachery-cloud==0.4.10 kaleido==0.2.1 keyring==25.6.0 keyrings-alt==5.0.2 kiwisolver==1.4.8 lazy-ops==0.2.0 llvmlite==0.43.0 locket==1.0.0 lxml==5.3.0 markdown-it-py==3.0.0 markupsafe==3.0.2 matplotlib==3.10.0 matplotlib-inline==0.1.7 mdurl==0.1.2 mearec==1.9.1 meautility==1.5.2 ml-dtypes==0.5.1 more-itertools==10.6.0 movement==0.0.23 moviepy==2.1.2 msgpack==1.1.0 mtscomp==1.0.2 multidict==6.1.0 narwhals==1.21.1 natsort==8.4.0 nc-time-axis==1.4.1 ndindex==1.9.2 ndx-dandi-icephys==0.4.0 ndx-events opencv-python scikit-learn movement==0.6  scipy==1.15.2 spyder-kernels==2.5.2
 
 if using spyder:
 conda install spyder-kernels=2.5
@@ -24,6 +24,49 @@ pip install -U spikeinterface
 Set functions path in Spyder:
 -open path-manager (blue-yellow python symbol on top of the code)
 -Add path to 'Functions' folder in your cloned GitHub repository (e.g. "C:\Users\kernt\GitHub\Project_hierarchy\Functions")
+
+=====================================================================================================
+# DATA STRUCTURE
+
+The project follows a hierarchical data organization: **animal/session/trial**
+
+## Directory Structure
+```
+examples/afm16924/                    # Example animal ID
+├── session_001/                      # Session directory
+│   ├── trial_001/                   # Individual trial
+│   │   ├── behavior/                # Behavioral data
+│   │   │   ├── *.mp4               # Video recordings
+│   │   │   ├── *.h5                # SLEAP trajectory files
+│   │   │   └── *.csv               # Bonsai sync/loom event files
+│   │   ├── ephys/                   # Electrophysiology data
+│   │   │   ├── preprocessed/        # Processed neural data
+│   │   │   └── raw/                 # SpikeGLX recordings, IronClust/Kilosort
+│   │   └── postscript/              # Analysis outputs
+│   │       ├── bad_times.npy        # LFP artifact timestamps
+│   │       ├── behavior.csv         # Timestamped behavior categories
+│   │       ├── np_neural_data.npy   # All cells' spiking data
+│   │       └── tracking.npy         # Trajectory and pose data
+│   └── trial_002/
+└── session_002/
+```
+
+## Data Files Description
+
+### Behavior Directory
+- **Videos (.mp4)**: Raw behavioral recordings
+- **SLEAP files (.h5)**: Pose estimation and tracking data from SLEAP
+- **Synchronization (.csv)**: Bonsai output for camera sync and looming event timestamps
+
+### Ephys Directory
+- **preprocessed/**: Spike-sorted and processed neural data
+- **raw/**: Raw SpikeGLX recordings and spike sorting outputs (IronClust, Kilosort)
+
+### Postscript Directory
+- **bad_times.npy**: Timestamps of suspicious LFP artifacts to exclude
+- **behavior.csv**: Timestamped behavioral annotations and categories
+- **np_neural_data.npy**: Consolidated spiking data from all recorded cells
+- **tracking.npy**: Processed trajectory information and pose estimation data
 
 =====================================================================================================
 GENERAL FOLDER OVERVIEW
