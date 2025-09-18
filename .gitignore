@@ -1,0 +1,14 @@
+
+preprocessing/plottingFunctions - Copy.py
+preprocessing/bkpreadSGLX.py
+__pycache__/
+.vscode/
+.env
+preprocessing/preprocess_all .py
+*.png
+*.h5
+*.pkl
+*.bin
+*.mat
+*.npy
+local_outputs*/
