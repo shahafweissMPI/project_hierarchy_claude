@@ -1,0 +1,37 @@
+(this is just my own, a bit simplified understanding of this)
+Singular Value Decomposition (SVD) can reduce the dimensionality of high-dimensional datasets. Each neuron in our data is taken as one dimension of activity, SVD tries to break this down into only a few factors that summarise the main trends in the data. 
+
+If you run SVD on any data, you get 3 outcome variables, U, S, and V. Here is what they mean in the context of neural data:
+
+U: Main outcome of the SVD. Neural FACTORS over time. Each factor is a combination of the activity of different neurons. They are sorted by neural variance they cover, so that the first factors represent broad activity of many neurons, whereas the last factors only represent specific activity of few neurons. You always have as many factors as there are neurons, but usually you are just interested in the first few
+
+S (Singular values): One S per U factor. They indicate how much variance each factor covers
+
+V: Factors*Neurons; Shows the weights of each neuron on each factor. E.g. to get activity of factor 1 at timepoint 1, you multiply the activity of each neuron at timepoint 1 by the respective weights for factor 1 and then sum them together. By going through all timepoints and factors, the U matrix is constructed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
